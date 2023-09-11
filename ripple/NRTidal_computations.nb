@@ -1,0 +1,73 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1862,         63]
+NotebookOptionsPosition[      1510,         49]
+NotebookOutlinePosition[      1911,         65]
+CellTagsIndexPosition[      1868,         62]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{"Get", " ", "the", " ", "equation"}], "*)"}], 
+  "\[IndentingNewLine]", 
+  RowBox[{"eq", " ", "=", " ", 
+   RowBox[{
+    RowBox[{"Log", "[", "C", "]"}], " ", "=", " ", 
+    RowBox[{"0.1940", "+", 
+     RowBox[{"0.09163", " ", "*", 
+      RowBox[{"Log", "[", "L", "]"}]}], "+", 
+     RowBox[{"0.04812", "*", " ", 
+      RowBox[{"Power", "[", 
+       RowBox[{
+        RowBox[{"Log", "[", "L", "]"}], ",", " ", "2"}], "]"}]}], "\[Minus]", 
+     
+     RowBox[{"0.004286", "*", 
+      RowBox[{"Power", "[", 
+       RowBox[{
+        RowBox[{"Log", "[", "L", "]"}], ",", " ", "3"}], "]"}]}], "+", 
+     RowBox[{"0.00012450", " ", "*", " ", 
+      RowBox[{"Power", "[", 
+       RowBox[{
+        RowBox[{"Log", "[", "L", "]"}], ",", " ", "4"}], 
+       "]"}]}]}]}]}]}]], "Input",
+ CellChangeTimes->{{3.903406236835348*^9, 
+  3.903406386847989*^9}},ExpressionUUID->"7c552bd6-a7d2-409c-8359-\
+16ce709bcc24"]
+},
+WindowSize->{2560, 1387},
+WindowMargins->{{-447, Automatic}, {956, Automatic}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"8e222aa9-32d7-420a-b49b-4141bc8ba149"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 948, 27, 52, "Input",ExpressionUUID->"7c552bd6-a7d2-409c-8359-16ce709bcc24"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
